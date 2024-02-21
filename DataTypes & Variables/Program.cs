@@ -10,7 +10,8 @@ namespace DataTypes___Variables
     {
         static void Main(string[] args)
         {
-            DataType.Example();
+            // DataType.Example();
+            Datatype_String.Example();
         }
     }
 }
