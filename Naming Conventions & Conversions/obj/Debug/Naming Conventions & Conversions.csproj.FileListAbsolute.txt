@@ -1,0 +1,7 @@
+D:\Hari Sundar\Hari-training\Udemy\Csharp-training\Naming Conventions & Conversions\bin\Debug\Naming Conventions & Conversions.exe.config
+D:\Hari Sundar\Hari-training\Udemy\Csharp-training\Naming Conventions & Conversions\bin\Debug\Naming Conventions & Conversions.exe
+D:\Hari Sundar\Hari-training\Udemy\Csharp-training\Naming Conventions & Conversions\bin\Debug\Naming Conventions & Conversions.pdb
+D:\Hari Sundar\Hari-training\Udemy\Csharp-training\Naming Conventions & Conversions\obj\Debug\Naming Conventions & Conversions.csproj.AssemblyReference.cache
+D:\Hari Sundar\Hari-training\Udemy\Csharp-training\Naming Conventions & Conversions\obj\Debug\Naming Conventions & Conversions.csproj.CoreCompileInputs.cache
+D:\Hari Sundar\Hari-training\Udemy\Csharp-training\Naming Conventions & Conversions\obj\Debug\Naming Conventions & Conversions.exe
+D:\Hari Sundar\Hari-training\Udemy\Csharp-training\Naming Conventions & Conversions\obj\Debug\Naming Conventions & Conversions.pdb

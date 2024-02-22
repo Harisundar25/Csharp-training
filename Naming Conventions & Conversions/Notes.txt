@@ -1,0 +1,9 @@
+Console Methods Explained :
+
+1. Console.Write("text here") - Prints and keeps the cursor on the same line.
+2. Console.WriteLine("text here") - Prints and puts the cursor in the next line.
+3. Console.Read() - Takes a single input of type string and it returns the ASCII value of that input.
+4. Console.ReadLine() - Takes a string or integer input and returns it as the output value.
+5. Console.ReadKey() - Takes a single input of type string and it returns the Key Info.
+6. Console.Beep() - Will give a beep sound while enter a key
+
