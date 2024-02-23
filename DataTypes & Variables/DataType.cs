@@ -11,14 +11,14 @@ namespace DataTypes___Variables
         int age = 15;
         public static void Example()
         {
-            int age = 20;// new value assigned
-            sbyte x = 120;// primitive data type with whole numbers from -128 to 128
-            short y = -32767; // from -32767 to 32767
-            long z = 9000000000000000000; //from -9,223,327,036,854,775,808 to 9,223,372,036,854,775,807
-            float f = 99.99f; //allows decimals from 1.5 x 10 ^ 45 to 3.4 x 10 ^ 78
+            int age = 20;// new value assigned - 4 bytes 
+            sbyte x = 120;// primitive data type with whole numbers from -128 to 128 - 1 byte
+            short y = -32767; // from -32767 to 32767 - 2 bytes
+            long z = 9000000000000000000; //from -9,223,327,036,854,775,808 to 9,223,372,036,854,775,807 -  8 bytes
+            float f = 99.99f; //allows decimals from 1.5 x 10 ^ 45 to 3.4 x 10 ^ 78 - 4 bytes
             double d1 = 3.1415; 
             double d2 = 5.2;
-            double dDiv = d1 / d2; //  retains its precision up to approximately 15-16 digits
+            double dDiv = d1 / d2; //  retains its precision up to approximately 15-16 digits - 8 bytes
             float f1 = 3.1415f;
             float f2 = 5.2f;
             float fDiv = f1 / f2; // rounded to approximately 7 digits after the decimal point
