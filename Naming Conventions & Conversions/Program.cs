@@ -10,7 +10,8 @@ namespace Naming_Conventions___Conversions
     {
         static void Main(string[] args)
         {
-            Console_class.Example();
+            //Console_class.Example();
+            Conversions.Example();
         }
     }
 }
