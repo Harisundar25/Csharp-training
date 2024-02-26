@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace String_Manipulation
 {
-    internal class StringMethods
+    public class StringMethods
     {
-        public static void Method(string[] args)
+        public void Method()
         {
             string message = " Hello World ";
             string upperMessage = message.ToUpper(); // this method converts the string to upper case
@@ -34,7 +34,10 @@ namespace String_Manipulation
             // Console.WriteLine(indexOf);
             string message6 = "Hello friends";
             string IsNull = string.IsNullOrEmpty(message6).ToString(); // this method checks if the string is null or empty
-             Console.WriteLine(IsNull);
+            // Console.WriteLine(IsNull);
+            var name = " Harry ";
+            String.Format("My name is {0}", name); // used to replace the value in the specified format
+            Console.WriteLine(name);
             Console.ReadKey();
         }   
     }
