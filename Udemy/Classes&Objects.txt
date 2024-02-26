@@ -1,0 +1,13 @@
+Classes & Object 
+1. A public class Book  is created 
+a) Inside the Class, Attributes is declared to create the object with the appropriate keyword
+	Ex :  public int page, public string name
+2. Inside the Main method 
+a) Creating an object called  book1
+	Ex : Book book1 = new Book(); 
+b) In object created , we can create those three attributes that have already declared in Main class
+	Ex :  book1.name = "Harry Potter";
+           book1.author = "JK Rowling";
+           book1.pages = 500;
+3. We can access the book1 by calling it with the appropriate Attributes
+a) Ex : Console.WriteLine(book1.name);

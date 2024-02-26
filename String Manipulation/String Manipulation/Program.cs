@@ -4,16 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Naming_Conventions___Conversions
+namespace String_Manipulation
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            //Console_class.Example();
-            //Conversions.Example();
-            //Console_class.Example();
-            StringParsing.Example();
+           // Manipulation.Example();
+           StringMethods.Method(args);
         }
     }
 }
