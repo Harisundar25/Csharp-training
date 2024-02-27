@@ -12,7 +12,8 @@ namespace String_Manipulation
         {
             Manipulation,
             StringMethods,
-            Challenge
+            Challenge,
+            task
         }
         public static void Output(Action files)
         {
@@ -33,7 +34,13 @@ namespace String_Manipulation
                     Challenge obj_Challenge = new Challenge();
                     obj_Challenge.Example();
                     break;
-
+                case Action.task:
+                    Console.WriteLine("Challenge_2.cs");
+                    task obj_Challenge_2 = new task();
+                    obj_Challenge_2.Example();
+                default:
+                    Console.WriteLine("input couldn't recognized");
+                    break;
             }
         }
         static void Main(string[] args)
