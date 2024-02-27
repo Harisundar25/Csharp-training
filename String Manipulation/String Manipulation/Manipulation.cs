@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace String_Manipulation
 {
-    internal class Manipulation
+    public class Manipulation
     {
-        public static void Example()
+        public void Example()
         {
             //define few variables
             int age = 31;
