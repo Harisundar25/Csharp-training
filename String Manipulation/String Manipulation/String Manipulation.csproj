@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Challenge.cs" />
     <Compile Include="Challenge_2.cs" />
+    <Compile Include="Datatype _challenge.cs" />
     <Compile Include="Manipulation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

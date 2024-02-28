@@ -13,7 +13,8 @@ namespace String_Manipulation
             Manipulation,
             StringMethods,
             Challenge,
-            task
+            task,
+            Datatype_challenge
         }
         public static void Output(Action files)
         {
@@ -36,8 +37,14 @@ namespace String_Manipulation
                     break;
                 case Action.task:
                     Console.WriteLine("Challenge_2.cs");
-                    task obj_Challenge_2 = new task();
+                    Challenge_2 obj_Challenge_2 = new Challenge_2();
                     obj_Challenge_2.Example();
+                    break;
+                case Action.Datatype_challenge:
+                    Console.WriteLine("Datatype_challenge");
+                    Datatype_challenge obj_Datatypechallenge = new Datatype_challenge();
+                    obj_Datatypechallenge.Example();
+                    break;
                 default:
                     Console.WriteLine("input couldn't recognized");
                     break;
@@ -48,7 +55,7 @@ namespace String_Manipulation
             // Manipulation.Example();
             // StringMethods.Method(args);
             // Challenge.Example(); 
-            Output(Action.StringMethods);
+            Output(Action.Datatype_challenge);
 
         }
 
