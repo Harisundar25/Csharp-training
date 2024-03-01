@@ -18,7 +18,10 @@ namespace Functions_Methods
             //  Void_Methods.SpecificMethod("This is an argument called from a method"); // after calling from an method, this is an argument
             //  Console.Read();
             //  Return_Value.Return();
-            Challenge.GreetFriend(Challenge.Example());
+            // Challenge.GreetFriend(Challenge.Example());
+            // Exercise.Example();
+            // UserInput.Output();
+            TryCatch.Output();
         }
     }
 }
