@@ -14,6 +14,7 @@ namespace Functions_Methods
             string name2 = "harry";
             string name3 = "ajith";
             return name1;
+            return name2;
         }
         public static void GreetFriend(string friendName)
         {
