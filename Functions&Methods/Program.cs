@@ -21,7 +21,8 @@ namespace Functions_Methods
             // Challenge.GreetFriend(Challenge.Example());
             // Exercise.Example();
             // UserInput.Output();
-            TryCatch.Output();
+            // TryCatch.Output();
+            Operators.Output();
         }
     }
 }
