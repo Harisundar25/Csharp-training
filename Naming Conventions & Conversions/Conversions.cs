@@ -20,8 +20,7 @@ namespace Naming_Conventions___Conversions
             double myDouble = 13.37;
             int myInt;
             // explicit conversion
-            // cast double to int;
-            myInt = (int)myDouble;
+            myInt = (int)myDouble;  // cast double to int;
 
             // typeConversion
             string myString = myDouble.ToString(); // "13.37"
