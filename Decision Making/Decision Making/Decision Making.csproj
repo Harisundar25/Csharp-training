@@ -44,7 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Exercise.cs" />
+    <Compile Include="Exercise_2.cs" />
     <Compile Include="If_else_Tryparse.cs" />
+    <Compile Include="Login challenge.cs" />
+    <Compile Include="Nested if.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Try Parse.cs" />

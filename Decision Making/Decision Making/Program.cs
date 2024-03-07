@@ -12,7 +12,10 @@ namespace Decision_Making
         {
             // Try_Parse.Example();
             // If_else_Tryparse.Example();
-            Exercise.Check(6);
+            // Exercise.Check(6);
+            // Nested_if.Example();
+            // Exercise_2.Example();
+            Login_challenge.Output();
         }
     }
 }
