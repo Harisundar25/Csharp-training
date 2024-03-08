@@ -15,7 +15,8 @@ namespace Decision_Making
             // Exercise.Check(6);
             // Nested_if.Example();
             // Exercise_2.Example();
-            Login_challenge.Output();
+            // Login_challenge.Output();
+            Switch.Example();
         }
     }
 }
