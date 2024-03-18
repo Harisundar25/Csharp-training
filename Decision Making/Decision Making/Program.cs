@@ -17,7 +17,8 @@ namespace Decision_Making
             // Exercise_2.Example();
             // Login_challenge.Output();
             // Switch.Example();
-            If_challenge_2.Output();
+            // Enhanced_If.Output();
+            Ternary_operator_challenge.Output();
         }
     }
 }

@@ -16,19 +16,27 @@ namespace Decision_Making
         // is evaluated as a ? b : (c ? d: e)
         // not as (a? b : c) ? d: e
         // The conditional operator cannot be overloaded.
+        public static void Output()
+        {
+            int temperature = -5;
+            string stateOfMatter;
 
-        int temperature = -5;
-        string stateOfMatter;
-
-        /* if (temperature < 0)
-                   stateOfMatter = "solid";
+            if (temperature < 0)
+                stateOfMatter = "solid";
             else
-                   stateOfMatter = "liquid";
-        */
-        // in short
-        stateOfMatter = temperature < 0 ? "solid" : "liquid";
-        Console.WriteLine("State of matter is " + stateOfMatter);
-        
-      
+                stateOfMatter = "liquid";
+            Console.WriteLine("State of matter is " + stateOfMatter);
+
+            temperature += 30;
+
+            // in short
+            stateOfMatter = temperature < 0 ? "solid" : "liquid";
+
+            // challenge - add gas state of matter to the options
+            temperature += 100;
+            stateOfMatter = temperature > 100 ? "gas" : temperature < 0 ? "solid" : "liquid";
+            Console.WriteLine("State of matter is " + stateOfMatter);
+            Console.ReadKey();
+        }
     }
 }
