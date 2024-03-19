@@ -23,7 +23,7 @@ namespace Decision_Making
             string input = Console.ReadLine();
             int temperature;
             if (int.TryParse(input, out temperature))
-            {
+            {    // condition ? iftrue : iffalse
                 string stateOfMatter = temperature <= 15 ? "it is too cold here" : 
                     // false case
                     (temperature >= 16 && temperature <= 28) ? "it is cold here" :
