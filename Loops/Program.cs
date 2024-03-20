@@ -10,7 +10,10 @@ namespace Loops
     {
         static void Main(string[] args)
         {
-            For_loop.Output();
+            // For_loop.Output();
+            // Do_while.Output();
+            // While.Output();
+            Task.Exercise();
         }
     }
 }
