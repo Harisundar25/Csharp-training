@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Break&amp;Continue.cs" />
     <Compile Include="Do while.cs" />
     <Compile Include="For loop.cs" />
     <Compile Include="Program.cs" />
