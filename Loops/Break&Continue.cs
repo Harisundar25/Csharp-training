@@ -9,7 +9,7 @@ namespace Loops
             for(int counter = 0; counter < 10; counter++)
             {
                 Console.WriteLine(counter);
-                if (counter == 2)
+                if (counter == 3)
                 {
                     Console.WriteLine("At 3 we stop!");
                     break;
@@ -20,7 +20,7 @@ namespace Loops
             for (int counter = 0; counter < 10; counter++)
             {
                 Console.WriteLine(counter);
-                if (counter == 2)
+                if (counter == 3)
                 {
                     Console.WriteLine("We skip at num 3!");
                     continue;
@@ -33,7 +33,7 @@ namespace Loops
                 Console.WriteLine(counter);
                 if (counter%2 == 0)
                 {
-                    Console.WriteLine("Now comes odd num 3!");
+                    Console.WriteLine("Now comes odd num!");
                     continue;
                 }
                 Console.WriteLine(counter);
