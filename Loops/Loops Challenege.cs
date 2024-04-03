@@ -23,25 +23,34 @@ namespace Loops
 
             while (input != "-1")
             {
-                Console.WriteLine("Please enter the score of the student");
+                Console.WriteLine("Last number was {0}", currentNumber);
+                Console.WriteLine("Please enter the next score");
+                Console.WriteLine("Current amount of entries {0}", count);
+                Console.WriteLine("Please enter -1 once you are ready to calculate the average");
+
                 input = Console.ReadLine();
-                if (int.TryParse(input, out currentNumber))
+                if (input.Equals("-1"))
                 {
-                    if (currentNumber >= 0 && currentNumber <= 20)
-                    {
-                        total += currentNumber;
-                        count++;
-                    }
-                    else
-                    {
-                        Console.WriteLine("Please enter a number between 0 and 20");
-                    }
+                    Console.WriteLine("------------------------------------------------");
+                    // calculate the average and let the teacher know
+                    double average = (double)total / (double)count;
+                    Console.WriteLine("The average score of your students is {0}", average);
+                }
+                if(int.TryParse(input, out currentNumber) && currentNumber > 0 && currentNumber < 21)
+                {
+                    total += currentNumber;
                 }
                 else
                 {
-                    Console.WriteLine("Please enter a valid number");
+                    if (!input.Equals("-1"))
+                    {
+                        Console.WriteLine("Please enter a valid number between 0 and 20");
+                    }
+                    continue;
                 }
+                count++;
             }
+            Console.ReadLine();
         }
     }
 }
