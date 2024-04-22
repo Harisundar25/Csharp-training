@@ -47,7 +47,7 @@ namespace OOPS
         }
         public void Details()
         {
-            Console.WriteLine("The " + _color +" car " + _name + "has" + _hp +" Horse power");
+            Console.WriteLine("The " + _color + " car " + _name + "has" + _hp + " Horse power");
         }
     }
 }
