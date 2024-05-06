@@ -8,7 +8,8 @@ namespace OOPS
         public static void Main(string[] args)
         {
             Classes_and_Objects audi = new Classes_and_Objects("Audi A5", 1500, "Red");
-            audi.Drive();
+            audi.SetName("My best car");
+            Console.WriteLine(audi.GetName());
             audi.Details();
 
             Classes_and_Objects bmw = new Classes_and_Objects("BMW M4", 2000);

@@ -9,6 +9,22 @@ namespace OOPS
         private int _hp;
         private string _color;
 
+        public string GetName() // getter
+        {
+            return _name;
+        }
+        public void SetName(string name) // setter
+        {
+            if(name == "")
+            {
+                _name = "DefaultName";
+            }
+            else
+            {
+                _name = name;
+            }
+        }
+
         /// <summary>
         /// Different type of constructors
         /// </summary>

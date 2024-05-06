@@ -2,13 +2,18 @@
 {
     internal class Code_snippets
     {
+        // Constructor
         public Code_snippets()
         {
-            do
+            if (true)
             {
-
-            } while (true);
-
+                // Code
+            }
+            while (true)
+            {
+                // Code
+            }
+            try { } catch (Exception e) { }
         }
     }
 }
