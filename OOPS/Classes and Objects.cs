@@ -4,27 +4,35 @@ namespace OOPS
 {
     internal class Classes_and_Objects
     {
-        // Member variable
+        // private Member variable / fields
         private string _name; // private field typically used for storing data
         private int _hp;
         private string _color;
 
-        public string GetName() // getter
-        {
-            return _name;
-        }
-        public void SetName(string name) // setter
-        {
-            if(name == "")
-            {
-                _name = "DefaultName";
-            }
-            else
-            {
-                _name = name;
-            }
-        }
+        // the public Properties
+        public string Name { 
+            get { return _name; } // get accessor
+            set { if(value == "")
+                { _name = "DefaultName is Audi V3"; }
+                else { _name = value; } } // set accessor
+        } 
 
+        /*  public string GetName() // getter
+          {
+              return _name;
+          }
+          public void SetName(string name) // setter
+          {
+              if(name == "")
+              {
+                  _name = "DefaultName";
+              }
+              else
+              {
+                  _name = name;
+              }
+          }
+        */
         /// <summary>
         /// Different type of constructors
         /// </summary>
@@ -34,6 +42,7 @@ namespace OOPS
             _name = "Car";
             _hp = 0;
             _color = "black";
+            Drive();
         }
         // 2. Partial specification constructor
         public Classes_and_Objects(string name, int hp = 0)

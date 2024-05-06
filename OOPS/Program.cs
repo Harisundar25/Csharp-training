@@ -7,7 +7,10 @@ namespace OOPS
     {
         public static void Main(string[] args)
         {
-            Classes_and_Objects audi = new Classes_and_Objects("Audi A5", 1500, "Red");
+            Classes_and_Objects myCar = new Classes_and_Objects();
+            Console.WriteLine(myCar.Name);
+
+            /* Classes_and_Objects audi = new Classes_and_Objects("Audi A5", 1500, "Red");
             audi.SetName("My best car");
             Console.WriteLine(audi.GetName());
             audi.Details();
@@ -28,7 +31,7 @@ namespace OOPS
             }
 
             Phone Samsung = new Phone();
-
+            */
         }
 
     }
