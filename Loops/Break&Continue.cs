@@ -16,6 +16,7 @@ namespace Loops
                 }
                 Console.WriteLine(counter);
             }
+            //get input from user
             Console.Read();
             for (int counter = 0; counter < 10; counter++)
             {
