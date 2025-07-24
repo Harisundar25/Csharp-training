@@ -16,7 +16,7 @@ namespace Loops
                 }
                 Console.WriteLine(counter);
             }
-            // added comment
+            // added console read to see the output before it closes
             Console.Read();
             for (int counter = 0; counter < 10; counter++)
             {
